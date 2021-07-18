@@ -22,8 +22,8 @@ The tool helps to find hidden parameters that can be vulnerable or can reveal in
 
 ## Usage
 - There are four search choices available: 
-    - Small Wordlist (Recommended, `25000` words, 7 threads)
-    - Large Wordlist (`63000` words, 25 threads)
+    - Small Wordlist (Recommended, `25000` words, 5 threads)
+    - Large Wordlist (`63000` words, 15 threads)
     - x8083 - all request will be proxied via port 8083 (for example, you can configure the port in Burp)
     - Debug Params - the minimum number of requests to detect only debug parameters and parameters based on response
 
