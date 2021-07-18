@@ -43,10 +43,10 @@ Thanks to [Sh1Yo](https://github.com/Sh1Yo) for the wonderful x8 utility. He add
 - Linux
     - from releases
         ```bash
-        Burp -> Extender -> ./x8-Burp/linux_x8.py
+        Burp -> Extender -> ./x8-Burp-linux/linux_x8.py
         ```
 - Windows
     - from releases
         ```bash
-        Burp -> Extender -> ./x8-Burp/win_x8.py
+        Burp -> Extender -> ./x8-Burp-win/win_x8.py
         ```
