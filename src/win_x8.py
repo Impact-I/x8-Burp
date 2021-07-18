@@ -164,7 +164,7 @@ class BurpExtender(IBurpExtender, ITab, IContextMenuFactory):
           argss.append('-H')
           for header in iRequestInfo.getHeaders():
               if i>0 and not header.lower().startswith("Content-Length:".lower()) and not header.lower().startswith("Host:".lower()):
-               argss.append('"'+header.replace('^','^^').replace('\\','^\\').replace('^\\\"','\\\\"').replace('"','\\"')+'"')
+               argss.append('"'+header.replace('^','^^').replace('\\','^\\').replace('^\\\"','\\\\"').replace('"','\\"').replace('&','^&')+'"')
               i=i+1
           argsf = ' '.join(argss)
           if '%s' in url:
