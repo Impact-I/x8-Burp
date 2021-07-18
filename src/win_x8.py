@@ -24,8 +24,8 @@ except ImportError:
 
 class BurpExtender(IBurpExtender, ITab, IContextMenuFactory):
     proxy = 'http://127.0.0.1:8083' # custom proxy example: http://p.webshare.io ?
-    threadCsmall = "7"
-    threadClarge = "25"
+    threadCsmall = "5"
+    threadClarge = "15"
 
     def registerExtenderCallbacks(self, callbacks):
         #os.environ['http_proxy'] = proxy 
