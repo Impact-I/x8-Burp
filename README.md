@@ -1,5 +1,3 @@
-[![Twitter](https://img.shields.io/twitter/follow/lmpact_l.svg?logo=twitter)](https://twitter.com/lmpact_l)
-
 <h3 align="center">Hidden parameters discovery suite wrapper</h3>
 
 #
