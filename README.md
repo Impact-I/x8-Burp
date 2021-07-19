@@ -40,7 +40,7 @@ Feel free to check whether the tool works as expected and compare it with other 
 Thanks to [Sh1Yo](https://github.com/Sh1Yo) for the wonderful x8 utility. He added special functions into it so that we could write this wrapper. We also spotted some bugs, specifically in HTTP/2, for Burp Suite compatibility. To examine and understand the project in detail, or if you need a command line version, click [here](https://github.com/Sh1Yo/x8).
 
 ## Installation
-You need to configure Jython Standalone path in Burp Suite Extender options.
+You need to configure [Jython Standalone](https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.2/jython-standalone-2.7.2.jar) path in Burp Suite Extender options.
 - Linux
     - from releases
         ```bash
