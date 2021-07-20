@@ -1,4 +1,4 @@
-[![Twitter](https://img.shields.io/twitter/follow/sh1yo_.svg?logo=twitter)](https://twitter.com/lmpact_l)
+[![Twitter](https://img.shields.io/twitter/follow/lmpact_l.svg?logo=twitter)](https://twitter.com/lmpact_l)
 
 ![stars](https://img.shields.io/github/stars/Impact-I/x8-Burp)
 ![github_downloads](https://img.shields.io/github/downloads/Impact-I/x8-Burp/total?label=downloads&logo=github)
