@@ -45,7 +45,7 @@ Thanks to [Sh1Yo](https://github.com/Sh1Yo) for the wonderful x8 utility. He add
 
 ## Installation
 You need to configure [Jython Standalone](https://www.jython.org/download.html) path in Burp Suite Extender options. <br>
-As this is a wrapper, a [precompiled binary](https://github.com/Sh1Yo/x8/releases/tag/v2.4.0) is used.
+As this is a wrapper, a [precompiled binary](https://github.com/Sh1Yo/x8/releases/tag/v2.5.0) is used.
 - Linux
     - from releases
         ```bash
