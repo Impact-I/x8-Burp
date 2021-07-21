@@ -43,6 +43,9 @@ Feel free to check whether the tool works as expected and compare it with other 
 ## Acknowledgement
 Thanks to [Sh1Yo](https://github.com/Sh1Yo) for the wonderful x8 utility. He added special functions into it so that we could write this wrapper. We also spotted some bugs, specifically in HTTP/2, for Burp Suite compatibility. To examine and understand the project in detail, or if you need a command line version, click [here](https://github.com/Sh1Yo/x8).
 
+## Tutorial
+<p align="center"><a href="https://www.youtube.com/watch?v=ou8m5jiP4qI"><img src="https://user-images.githubusercontent.com/87244850/126552382-10421e67-930a-48fe-aaac-0d84a81a05ca.png" width="84%"/></a></p>
+
 ## Installation
 You need to configure [Jython Standalone](https://www.jython.org/download.html) path in Burp Suite Extender options. <br>
 As this is a wrapper, a [precompiled binary](https://github.com/Sh1Yo/x8/releases/tag/v2.5.0) is used.
