@@ -34,7 +34,6 @@ class BurpExtender(IBurpExtender, ITab, IContextMenuFactory):
         sys.stdout = callbacks.getStdout()
         
         if not os.path.isfile("x8"):
-            print "wait"
             urllib.urlretrieve("https://github.com/Sh1Yo/x8/releases/download/v2.5.0/x8_linux.tar.gz", "x8_linux.tar.gz")
             tar = tarfile.open("x8_linux.tar.gz")
             tar.extractall()
