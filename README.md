@@ -49,10 +49,10 @@ As this is a wrapper, a [precompiled binary](https://github.com/Sh1Yo/x8/release
 - Linux
     - from releases
         ```bash
-        Burp -> Extender -> ./linux_x8_Burp/linux_x8.py
+        Burp -> Extender -> ./x8-Burp/linux_x8.py
         ```
 - Windows
     - from releases
         ```bash
-        Burp -> Extender -> ./win_x8_Burp/win_x8.py
+        Burp -> Extender -> ./x8-Burp/win_x8.py
         ```
