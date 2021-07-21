@@ -13,6 +13,8 @@ import time
 from burp import IScanIssue
 import os
 import sys
+import tarfile
+import urllib
 import subprocess
 import shlex
 import threading
@@ -29,16 +31,20 @@ class BurpExtender(IBurpExtender, ITab, IContextMenuFactory):
     threadClarge = "15"
 
     def registerExtenderCallbacks(self, callbacks):
-        #os.environ['http_proxy'] = proxy 
-        #os.environ['HTTP_PROXY'] = proxy
-        #os.environ['https_proxy'] = proxy
-        #os.environ['HTTPS_PROXY'] = proxy
         sys.stdout = callbacks.getStdout()
+        
+        if not os.path.isfile("x8"):
+            print "wait"
+            urllib.urlretrieve("https://github.com/Sh1Yo/x8/releases/download/v2.5.0/x8_linux.tar.gz", "x8_linux.tar.gz")
+            tar = tarfile.open("x8_linux.tar.gz")
+            tar.extractall()
+            tar.close()
         
         popen = subprocess.Popen("chmod +x x8",shell=True,stderr=subprocess.PIPE, stdout=subprocess.PIPE)
         popen.wait()
         popen.stderr.close()
         popen.stdout.close()
+        
         self.callbacks = callbacks
 
         self.helpers = callbacks.getHelpers()
