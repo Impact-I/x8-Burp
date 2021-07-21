@@ -12,6 +12,7 @@ from java.util import ArrayList
 import time
 from burp import IScanIssue
 import os
+from zipfile import ZipFile
 import sys
 import subprocess
 import shlex
@@ -28,12 +29,14 @@ class BurpExtender(IBurpExtender, ITab, IContextMenuFactory):
     threadClarge = "15"
 
     def registerExtenderCallbacks(self, callbacks):
-        #os.environ['http_proxy'] = proxy 
-        #os.environ['HTTP_PROXY'] = proxy
-        #os.environ['https_proxy'] = proxy
-        #os.environ['HTTPS_PROXY'] = proxy
         sys.stdout = callbacks.getStdout()
 
+        if not os.path.isfile("x8.exe"):
+            urllib.urlretrieve("https://github.com/Sh1Yo/x8/releases/download/v2.5.0/x8_windows.zip", "x8_windows.zip")
+            zip = ZipFile('x8_windows.zip')
+            zip.extractall()
+            zip.close()
+        
         self.callbacks = callbacks
 
         self.helpers = callbacks.getHelpers()
