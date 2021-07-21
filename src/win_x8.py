@@ -10,6 +10,7 @@ from javax import swing
 from java.awt import BorderLayout
 from java.util import ArrayList
 import time
+import urllib
 from burp import IScanIssue
 import os
 from zipfile import ZipFile
