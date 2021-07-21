@@ -1,4 +1,4 @@
-__version__ = '0.1.1'
+__version__ = '0.1.2'
 __description__ = """\
 Bruteforce via x8 - Hidden parameters discovery suite
 """
