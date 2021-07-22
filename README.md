@@ -44,9 +44,9 @@ Feel free to check whether the tool works as expected and compare it with other 
 Thanks to [Sh1Yo](https://github.com/Sh1Yo) for the wonderful x8 utility. He added special functions into it so that we could write this wrapper. We also spotted some bugs, specifically in HTTP/2, for Burp Suite compatibility. To examine and understand the project in detail, or if you need a command line version, click [here](https://github.com/Sh1Yo/x8).
 
 ## Follow-up plan
-- [ ] Implementation of panel for configuring custom proxy
+- [ ] Implementation of a panel for configuring custom proxy
 - [x] Windows version
-- [ ] Implementation of choice - `25000` words, 1 thread
+- [ ] Implementation of a choice - `25000` words, 1 thread
 - [ ] Adding to BApp Store
 
 ## Video
