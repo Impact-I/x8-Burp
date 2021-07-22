@@ -31,7 +31,7 @@ The tool helps to find hidden parameters that can be vulnerable or can reveal in
     - x8083 - all request will be proxied via port 8083 (for example, you can configure the port in Burp)
     - Debug Params - the minimum number of requests to detect only debug parameters and parameters based on response
 
-<p align="center">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<img src="https://user-images.githubusercontent.com/87244850/125835974-5679ec1a-0126-48a2-82ba-1861c94ed551.png" width="83%"/></p>
+<p align="center">&#160;&#160;&#160;&#160;&#160;&#160;<img src="https://user-images.githubusercontent.com/87244850/125835974-5679ec1a-0126-48a2-82ba-1861c94ed551.png" width="83%"/></p>
 
 
 ## Test
