@@ -46,7 +46,7 @@ Thanks to [Sh1Yo](https://github.com/Sh1Yo) for the wonderful x8 utility. He add
 ## Follow-up plan
 - [ ] Implementing a panel for configuring custom proxy
 - [x] Windows version
-- [ ] Implementing a choice - `25000` words, 1 threads
+- [ ] Implementing a choice - `25000` words, 1 thread
 - [ ] Adding to BApp Store
 
 ## Video
