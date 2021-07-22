@@ -38,7 +38,7 @@ The tool helps to find hidden parameters that can be vulnerable or can reveal in
 Feel free to check whether the tool works as expected and compare it with other tools at https://4rt.one/. There are 2 reflected parameters, 4 parameters that change code/headers/body, and one extra parameter with a not random value.
 
 ## Detected parameters
-<p align="center"><img src="https://user-images.githubusercontent.com/87244850/125836031-681af553-c3ef-4314-a431-dd34e49fdb86.png" width="87%"/></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/87244850/125836031-681af553-c3ef-4314-a431-dd34e49fdb86.png" width="83%"/></p>
 
 ## Acknowledgement
 Thanks to [Sh1Yo](https://github.com/Sh1Yo) for the wonderful x8 utility. He added special functions into it so that we could write this wrapper. We also spotted some bugs, specifically in HTTP/2, for Burp Suite compatibility. To examine and understand the project in detail, or if you need a command line version, click [here](https://github.com/Sh1Yo/x8).
