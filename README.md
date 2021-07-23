@@ -35,7 +35,7 @@ The tool helps to find hidden parameters that can be vulnerable or can reveal in
 
 
 ## Test
-Feel free to check whether the tool works as expected and compare it with other tools at https://4rt.one/. There are 2 reflected parameters, 4 parameters that change code/headers/body, and one extra parameter with a not random value.
+Feel free to check whether the tool works as expected and compare it with other tools at https://4rt.one/index.html There are 2 reflected parameters, 4 parameters that change code/headers/body, and one extra parameter with a not random value.
 
 ## Detected parameters
 <p align="center"><img src="https://user-images.githubusercontent.com/87244850/125836031-681af553-c3ef-4314-a431-dd34e49fdb86.png" width="83%"/></p>
