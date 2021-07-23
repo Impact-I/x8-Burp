@@ -47,7 +47,7 @@ Thanks to [Sh1Yo](https://github.com/Sh1Yo) for the wonderful x8 utility. He add
 - [ ] Implementation of a panel for configuring custom proxy
 - [x] Windows version
 - [ ] Implementation of a choice - `25000` words, 1 thread
-- [ ] Adding to BApp Store
+- [ ] Publish to BApp Store
 
 ## Demo
 <p align="center"><a href="https://www.youtube.com/watch?v=ou8m5jiP4qI"><img src="https://user-images.githubusercontent.com/87244850/126552382-10421e67-930a-48fe-aaac-0d84a81a05ca.png" width="80%"/></a></p>
