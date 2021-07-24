@@ -21,7 +21,7 @@ The tool helps to find hidden parameters that can be vulnerable or can reveal in
 - Requests with detected parameters are visible in the Proxy tab.
 - Issue is added with severity `Information` when WAF is detected.
 - Automatic detection of injection point. If the request body exists, then parameters in URL-Query are ignored.
-- Custom injectin point can be defined using `%s` or `&%s`
+- Custom injection point can be defined using `%s` or `&%s`
 <p align="center"><img src="https://user-images.githubusercontent.com/87244850/125835832-a24d2cec-4dc1-4ffd-afff-12f4e99c409c.png" width="79%"/></p>
 
 ## Usage
