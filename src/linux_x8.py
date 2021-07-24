@@ -59,7 +59,7 @@ class BurpExtender(IBurpExtender, ITab, IContextMenuFactory):
         return
     
     def consolidateDuplicateIssues(self, existingIssue, newIssue):
-        # This method is called when multiple issues are reported for the same URL 
+        # This method is called when  multiple issues are reported for the same URL 
         # path by the same extension-provided check. The value we return from this 
         # method determines how/whether Burp consolidates the multiple issues
         # to prevent duplication
