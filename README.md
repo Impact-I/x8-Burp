@@ -2,11 +2,10 @@
 
 ![stars](https://img.shields.io/github/stars/Impact-I/x8-Burp)
 [![github_downloads](https://img.shields.io/github/downloads/Impact-I/x8-Burp/total?label=downloads&logo=github)](https://github.com/Impact-I/x8-Burp/releases/tag/v0.1.2)
-<h3 align="center">Hidden parameters discovery suite wrapper</h3>
+<h3 align="center">This app is no longer supported</h3>
 
 #
 
-## Archive this repo
 
 <p align="center"><img src="https://user-images.githubusercontent.com/87244850/126019752-09dc8b3c-c6a4-49f3-9398-7974cbae3d03.png" width="50%"/></p>
 
